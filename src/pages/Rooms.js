@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-onst Rooms = () => {
-    return (
-        <div>
-            hello from rooms page
-        </div>
-    )
-}
+const Rooms = () => {
+  return <div>hello from rooms page</div>;
+};
 
-const default Room
+export default Rooms;
