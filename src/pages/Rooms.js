@@ -5,13 +5,15 @@ import { Link } from "react-router-dom";
 
 const Rooms = () => {
   return (
-    <Hero hero="roomsHero">
-      <Banner title="Our Rooms">
-        <Link to="/" className="btn-primary">
-          return home
-        </Link>
-      </Banner>
-    </Hero>
+    <React.Fragment>
+      <Hero hero="roomsHero">
+        <Banner title="Our Rooms">
+          <Link to="/" className="btn-primary">
+            return home
+          </Link>
+        </Banner>
+      </Hero>
+    </React.Fragment>
   );
 };
 
